@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #570fca;
+    color: #fff;
+}
+
+/* Add your css  */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator form input {
+    height: 80px;
+    width: 90px;
+}
+
+form .display{
+display: flex;
+}
+
+form .display input{
+flex:content;
+}
